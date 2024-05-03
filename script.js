@@ -4,7 +4,7 @@ const rows = [];
 
 // the loop runs 8 times until the condition is re
 for(let i = 0; i < count; i = i + 1){
-    rows.push(i);
+    rows.push(character);
 }
  let result = "";
  console.log(result);
