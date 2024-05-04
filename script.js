@@ -2,8 +2,12 @@ const character = "# ";
 const count = 8;
 const rows = [];
 
-function padRow(){}
+function padRow(){
+    return "Hello!";
+}
 padRow();
+const call = padRow();
+console.log(call);
 
 // the loop runs 8 times until the condition is re
 for(let i = 0; i < count; i = i + 1){
