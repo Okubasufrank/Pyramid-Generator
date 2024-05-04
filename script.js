@@ -2,12 +2,8 @@ const character = "# ";
 const count = 8;
 const rows = [];
 
-function padRow(name){
-    return character + name;
+function padRow(rowNumber, rowCount){
 }
-padRow("Frank");
-const call = padRow();
-console.log(call);
 
 // the loop runs 8 times until the condition is re
 for(let i = 0; i < count; i = i + 1){
