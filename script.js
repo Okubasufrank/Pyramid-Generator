@@ -2,6 +2,8 @@ const character = "# ";
 const count = 8;
 const rows = [];
 
+function padRow(){}
+
 // the loop runs 8 times until the condition is re
 for(let i = 0; i < count; i = i + 1){
     rows.push(character); 
