@@ -8,7 +8,7 @@ function padRow(rowNumber, rowCount){
 
 // the loop runs 8 times until the condition is re
 for(let i = 0; i < count; i = i + 1){
-    rows.push(padRow());
+    rows.push(padRow(i+1, count));
     //rows.push(character); 
     //character.repeat(i+1);  use of .repeat() method
     /*
