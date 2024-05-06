@@ -8,8 +8,9 @@ function padRow(rowNumber, rowCount){
 
 // the loop runs 8 times until the condition is re
 for(let i = 0; i < count; i = i + 1){
-    rows.push(character); 
-    character.repeat(i+1); // use of .repeat() method
+    rows.push(padRow());
+    //rows.push(character); 
+    //character.repeat(i+1);  use of .repeat() method
     /*
      The above method accepts a number as an argument, specifying the number
       of times to repeat the target string. For example, using .repeat()
