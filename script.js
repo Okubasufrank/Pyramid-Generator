@@ -3,10 +3,10 @@ const count = 8;
 const rows = [];
 
 function padRow(rowNumber, rowCount){
-    return " " + character + " ".repeat(rowNumber);
+    return " ".repeat(rowCount - rowNumber) + character.repeat(rowNumber) + " ".repeat(rowCount - rowNumber);
 }
 
-// the loop runs 8 times until the condition is re
+// this  loop runs 8 times until the condition is reached
 for(let i = 0; i < count; i = i + 1){
     rows.push(padRow(i+1, count));
     //rows.push(character); 
