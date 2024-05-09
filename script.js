@@ -5,7 +5,7 @@ const rows = [];
 function padRow(rowNumber, rowCount){
     return " ".repeat(rowCount - rowNumber) + character.repeat(2 * rowNumber - 1) + " ".repeat(rowCount - rowNumber);
 }
-
+//remember to change the code to a different kind of loop
 // this  loop runs 8 times until the condition is   reached
 for(let i = 1; i <= count; i++ ){
     rows.push(padRow(i , count));
