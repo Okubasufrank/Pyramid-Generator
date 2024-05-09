@@ -7,8 +7,12 @@ function padRow(rowNumber, rowCount){
 }
 //remember to change the code to a different kind of loop
 // this  loop runs 8 times until the condition is   reached
+
+/* 
 for(let i = 1; i <= count; i++ ){
-    rows.push(padRow(i , count));
+    rows.push(padRow(i , count)); 
+    */
+
     //rows.push(character); 
     //character.repeat(i+1);  use of .repeat() method
     /*
