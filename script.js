@@ -14,9 +14,8 @@ for(let i = 1; i <= count; i++ ){
 }
     */
 
-    if("false"){
-        console.log("Condition is true");
-      }
+let continueLoop = false;
+let done = 0;
     //rows.push(character); 
     //character.repeat(i+1);  use of .repeat() method
     /*
