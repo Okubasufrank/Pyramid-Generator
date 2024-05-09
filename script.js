@@ -11,8 +11,12 @@ function padRow(rowNumber, rowCount){
 /* 
 for(let i = 1; i <= count; i++ ){
     rows.push(padRow(i , count)); 
+}
     */
 
+    if(true){
+        console.log("Condition is true");
+      }
     //rows.push(character); 
     //character.repeat(i+1);  use of .repeat() method
     /*
@@ -21,7 +25,6 @@ for(let i = 1; i <= count; i++ ){
        to generate the string "Code! Code! Code!"
     */
     
-}
  let result = "";
  console.log(result);
 
