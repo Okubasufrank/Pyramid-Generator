@@ -10,8 +10,11 @@ function padRow(rowNumber, rowCount){
 // this  loop runs 8 times until the condition is   reached
 
 for(let i = 1; i <= count; i++ ){
-    if(inverted){}
-    rows.unshift(padRow(i , count)); 
+    if(inverted){
+        rows.unshift(padRow(i , count)); 
+    } else {
+        rows.push(padRow(i, count));  
+    }
 }
 
 /* --------------------------------------------------
