@@ -8,11 +8,9 @@ function padRow(rowNumber, rowCount){
 //remember to change the code to a different kind of loop
 // this  loop runs 8 times until the condition is   reached
 
-/* 
 for(let i = 1; i <= count; i++ ){
-    rows.push(padRow(i , count)); 
+    rows.unshift(padRow(i , count)); 
 }
-    */
 
 /* --------------------------------------------------
 while(rows.length <= count){
@@ -28,11 +26,12 @@ for(let i = count; i > 0; i--){
 *******************************************
 */
 
+/* 
 const numbers = [1, 2, 3];
 const shifted = numbers.shift();
 console.log(shifted);
 const unshifted = numbers.unshift(5);
-console.log(numbers);
+console.log(numbers); */
 
     //rows.push(character); 
     //character.repeat(i+1);  use of .repeat() method
