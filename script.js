@@ -17,7 +17,7 @@ for(let i = 1; i <= count; i++ ){
 /*while(rows.length <= count){
     rows.push(padRow(rows.length + 1, count));
 } */
-for(let i = count; i > 0; i -= 1){
+for(let i = count; i > 0; i--){
     rows.push(padRow(i, count));
 }
     //rows.push(character); 
