@@ -17,7 +17,7 @@ for(let i = 1; i <= count; i++ ){
 /*while(rows.length <= count){
     rows.push(padRow(rows.length + 1, count));
 } */
-for(let i = count; false; false){}
+for(let i = count; i > 0; false){}
     //rows.push(character); 
     //character.repeat(i+1);  use of .repeat() method
     /*
