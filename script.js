@@ -14,12 +14,10 @@ for(let i = 1; i <= count; i++ ){
 }
     */
 
-let done = 0;
-while(rows.length <= count){
-    done++;
-    rows.push(padRow(done, count));
-
-}
+/*while(rows.length <= count){
+    rows.push(padRow(rows.length + 1, count));
+} */
+for(let i = count; false; false){}
     //rows.push(character); 
     //character.repeat(i+1);  use of .repeat() method
     /*
